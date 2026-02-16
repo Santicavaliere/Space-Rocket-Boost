@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/ios/
+
+# Imported translations (automatically generated)
+*.translation
+
+# Export presets (opcional, si tiene claves privadas no lo subas)
+export_presets.cfg
+
+# Mono/C# ignores (por si acaso usas .NET en el futuro)
+.mono/
+*.csproj
+*.sln
