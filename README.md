@@ -2,8 +2,7 @@
 
 A physics-based 3D platformer built with **Godot Engine 4**. The goal is to pilot a rocket-powered ship from a launch pad to a landing zone, navigating through obstacles using thrust and rotation mechanics.
 
-![Gameplay Screenshot](https://via.placeholder.com/800x450?text=Upload+Your+Game+Screenshot+Here)
-*(Note: Replace the image above with a real screenshot of your game)*
+![Gameplay Screenshot](screenshots/gameplay.png)
 
 ## 🎮 How to Play
 
@@ -30,10 +29,3 @@ This project was developed focusing on **Godot 4 best practices** and clean arch
 * **Modular Scene Structure:** The project uses nested `Node3D` containers (`Geometry`, `Lighting`, `Traps`) to keep the Scene Tree organized and readable.
 * **Visual Feedback:** Extensive use of `GPUParticles3D` for engine thrust and explosion effects.
 
-### Project Structure
-```text
-res://
-├── scenes/             # Level scenes and instanced objects (Player, Pads)
-├── scripts/            # GDScript logic (Player controller, Hazard movement)
-├── assets/             # Audio files, 3D models, and materials
-└── project.godot       # Main configuration file
